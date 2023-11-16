@@ -23,15 +23,20 @@ email: mark@markltownsend.com
 description: >- # this means to ignore newlines until "baseurl:"
   A place where I write about programming topics I'm learning about.  Mostly iOS, perhaps some Android.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://markltownsend.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: markltownsend
+url: "https://www.markltownsend.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  markltownsend
+mastodon:
+  - username: markltownsend
+    instance: iosdev.space
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
+kramdown:
+  input: Kramdown
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -51,8 +56,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-# minima:
-#   social_links:
-#     - { platform: github,  user_url: "https://github.com/jekyll/jekyll" }
-#     - { platform: twitter, user_url: "https://twitter.com/jekyllrb" }
