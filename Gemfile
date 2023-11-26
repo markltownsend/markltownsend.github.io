@@ -15,6 +15,7 @@ gem "jekyll"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"
+gem "kramdown-parser-gfm"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
