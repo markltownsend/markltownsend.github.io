@@ -33,6 +33,8 @@ mastodon:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-compose
+  - jekyll-timeago
 
 kramdown:
   input: GFM
