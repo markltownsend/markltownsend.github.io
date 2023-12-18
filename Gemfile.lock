@@ -58,6 +58,9 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+    minima-reboot (1.0.33)
+      jekyll (>= 3.6, < 5.0)
+      jekyll-seo-tag (~> 2.7)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.4)
@@ -87,6 +90,7 @@ DEPENDENCIES
   jekyll-timeago
   kramdown-parser-gfm
   minima
+  minima-reboot
   webrick
 
 BUNDLED WITH
