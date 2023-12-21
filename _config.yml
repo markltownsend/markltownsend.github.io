@@ -35,6 +35,8 @@ plugins:
   - jekyll-feed
   - jekyll-compose
   - jekyll-timeago
+  - jekyll-remote-theme
+
 
 kramdown:
   input: GFM
