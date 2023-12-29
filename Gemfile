@@ -14,10 +14,10 @@ gem "webrick"
 gem "jekyll"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima"
+# gem "minima"
 
 # Other Jekyll themes
-gem "minima-reboot"
+# gem "minima-reboot"
 
 gem "kramdown-parser-gfm"
 
@@ -31,6 +31,9 @@ group :jekyll_plugins do
   gem "jekyll-compose"
   gem "jekyll-timeago"
   gem "jekyll-remote-theme"
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  
 end
 
 
