@@ -9,7 +9,7 @@ author: Mark Townsend
 email: mark@markltownsend.com
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: "A place where I write about programming topics I'm learning about.  Mostly iOS, perhaps some Android."
+description: "A place where I write about programming topics I'm learning about.  Mostly iOS, perhaps some Android."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.markltownsend.com" # the base hostname & protocol for your site, e.g. http://example.com
 url-pretty: "markltownsend.com"
